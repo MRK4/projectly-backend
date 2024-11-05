@@ -5,4 +5,5 @@ export default cleanEnv(process.env, {
   MONGO_URL: str(),
   SESSION_SECRET: str(),
   CLIENT_URL: str(),
+  NODE_ENV: str(),
 });
