@@ -50,4 +50,8 @@ app.get("/api", (req, res) => {
   res.send("The API is working!");
 });
 
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
 export default app;
